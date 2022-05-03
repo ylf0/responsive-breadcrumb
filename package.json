@@ -1,0 +1,26 @@
+{
+  "name": "responsive-breadcrumb",
+  "version": "1.0.0",
+  "description": "responsive breadcrumb",
+  "main": "lib/bundle.js",
+  "types": "lib/index.d.ts",
+  "author": "yangliangfei",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run rollup -c -w",
+    "build": "set NODE_ENV=production && rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "postcss": "^8.4.13",
+    "rollup": "^2.71.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {}
+}

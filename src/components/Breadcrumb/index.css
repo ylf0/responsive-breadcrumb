@@ -1,0 +1,76 @@
+.responsive_breadcrumb {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.rb_item {
+  display: flex;
+  align-items: center;
+  color: #858e99;
+  cursor: pointer;
+}
+
+.rb_item .rb_name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rb_last_item {
+  color: #263035;
+  cursor: default;
+}
+
+.rb_separator {
+  margin: 0 4px;
+}
+
+.rb_omit_wrapper {
+  position: relative;
+}
+
+.rb_omit_wrapper:hover .rb_omit_list {
+  display: block;
+}
+
+.rb_omit_list {
+  display: none;
+  position: absolute;
+  padding: 4px;
+  max-width: 200px;
+  white-space: nowrap;
+  background-color: #fff;
+  box-shadow: 0px 9px 28px 8px rgba(87, 98, 114, 0.05),
+    0px 6px 10px rgba(87, 98, 114, 0.05),
+    0px 3px 6px -4px rgba(87, 98, 114, 0.05);
+  border-radius: 4px;
+  transform: translate(-50%, 0px);
+  animation: raise-up 0.3s;
+}
+
+.rb_omit_item {
+  padding: 6px;
+  color: #858e99;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.2s;
+}
+
+.rb_omit_item:hover {
+  background-color: #f3f4f5;
+}
+
+.clone_list {
+  position: fixed;
+  top: 99px;
+  left: 0;
+  /* opacity: 0; */
+}
+
+@keyframes raise-up {
+  0% {
+    transform: translate(-50%, -12px) scaleY(0.9);
+  }
+}

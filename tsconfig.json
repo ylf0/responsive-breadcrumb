@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./lib",
+    "declaration": true,
+    "module": "esnext",
+    "removeComments": true,
+    "jsx": "react",
+  },
+  "includes": [
+    "src/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
