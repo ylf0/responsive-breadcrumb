@@ -1,9 +1,15 @@
 {
   "name": "responsive-breadcrumb",
   "version": "1.0.0",
-  "description": "responsive breadcrumb",
+  "description": "responsive react breadcrumb",
   "main": "lib/bundle.js",
   "types": "lib/index.d.ts",
+  "keywords": ["breadcrumb", "react-breadcrumb", "responsive-breadcrumb"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ylf0/responsive-breadcrumb"
+  },
+  "homepage": "https://github.com/ylf0/responsive-breadcrumb",
   "author": "yangliangfei",
   "license": "MIT",
   "scripts": {

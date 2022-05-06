@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 
-import { Item, calcBreadcrumb } from '../../utils'
+import { Item, calcBreadcrumb } from '../../utils/index'
 import './index.css'
 
 interface IBreadcrumbItem {
