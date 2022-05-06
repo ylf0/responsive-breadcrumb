@@ -17,7 +17,7 @@ const breadcrumbItems = [
   { key: 'path3', name: 'path3' },
 ]
 
-function handleBreadcrumbItemClick(itme: { key: string, name: string }) {
+function handleBreadcrumbItemClick(item: { key: string, name: string }) {
   // do something with item
 }
 
