@@ -4,7 +4,7 @@ responsive breadcrumb that in one line
 响应式地一行展示面包屑列表。如果列表过长在父容器内展示不下，则动态计算面包屑展示宽度，多余面包屑收至省略列表并鼠标悬浮展示。
 
 ### 使用效果
-[breadcrumb-demo](https://itg-tezign-files.tezign.com/sop/public/432/423195804/breadcrumb-demo.png)
+![breadcrumb-demo](https://itg-tezign-files.tezign.com/sop/public/432/423195804/breadcrumb-demo.png)
 
 ### 代码示例
 ``` typescript
