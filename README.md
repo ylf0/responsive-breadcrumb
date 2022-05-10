@@ -33,5 +33,5 @@ function handleBreadcrumbItemClick(item: { key: string, name: string }) {
 | ---- | ---- | ---- | ---- |
 | className | 自定义 className | string | - |
 | items | 面包屑数据列表 | Array<{ key: string, name: string }> | - |
-| separator | 面包屑之间的分隔符或图标 | string | ReactNode | '>' |
-| onClick | 面包屑点击回调 | (item: { key: string, name: string }) | - |
+| separator | 面包屑之间的分隔符或图标 | string / ReactElement | '>' |
+| onClick | 面包屑点击回调 | (item) => void | - |
