@@ -1,6 +1,6 @@
 {
   "name": "responsive-breadcrumb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "responsive react breadcrumb",
   "main": "lib/bundle.js",
   "types": "lib/index.d.ts",
